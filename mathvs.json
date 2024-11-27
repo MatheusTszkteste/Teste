@@ -1,8 +1,8 @@
 {
-    "url": "https://raw.githubusercontent.com/afine-com/CVE-2018-25031/main/poc.yaml",
+    "url": "https://raw.githubusercontent.com/MatheusTszkteste/Teste/refs/heads/main/trem.yaml",
     "urls": [
         {
-            "url": "https://raw.githubusercontent.com/afine-com/CVE-2018-25031/main/poc.yaml",
+            "url": "https://raw.githubusercontent.com/MatheusTszkteste/Teste/refs/heads/main/trem.yaml",
             "name": "afine"
         }
     ]
